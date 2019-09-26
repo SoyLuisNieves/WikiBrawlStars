@@ -1,0 +1,51 @@
+/*
+  Tipo de selector{
+	propiedad: valor;
+  }
+*/
+
+*{
+	border: 1px solid red;
+	margin: 10px;
+}
+
+/* 
+  Selector de etiqueta
+*/
+
+header{
+	background-color: blue;
+}
+section{
+	background-color: purple;
+}
+
+/* Selector descendente */
+
+article h3{
+	color: green;
+}
+
+/* Selectores de clase */
+
+.title-description{
+	background-color: orange;
+}
+
+.title-brawler{
+	background-color: salmon;
+}
+
+/* Selector de id*/
+
+#header{
+	border: 3px solid black;
+}
+
+#cover{
+	border: 3px solid orange;	
+}
+
+#brawlers{
+	border: 3px solid brown;
+}
