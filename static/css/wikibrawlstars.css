@@ -1,51 +1,34 @@
-/*
-  Tipo de selector{
-	propiedad: valor;
-  }
-*/
-
-*{
-	border: 1px solid red;
-	margin: 10px;
+body{
+	font-family: 'Raleway'
 }
 
-/* 
-  Selector de etiqueta
-*/
-
-header{
-	background-color: blue;
-}
-section{
-	background-color: purple;
+.title{
+	font-family: 'Lilita One';
+	font-size: 70px;
 }
 
-/* Selector descendente */
-
-article h3{
-	color: green;
-}
-
-/* Selectores de clase */
-
-.title-description{
-	background-color: orange;
+.brawlers h2{
+	font-size: 35px;
 }
 
 .title-brawler{
-	background-color: salmon;
+	font-family: 'Lilita One';
+	font-size: 50px;
 }
 
-/* Selector de id*/
-
-#header{
-	border: 3px solid black;
+.cover{
+	background-image: url('../images/background.jpg');
+	color: white;
 }
 
-#cover{
-	border: 3px solid orange;	
+.brawlers{
+	color: #1F313C;
 }
 
-#brawlers{
-	border: 3px solid brown;
+.menu{
+	font-size: 24px;
+}
+
+.menu ul {
+	font-family: 'Lilita One';
 }
