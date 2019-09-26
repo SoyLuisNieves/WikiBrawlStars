@@ -1,10 +1,20 @@
 body{
-	font-family: 'Raleway'
+	font-family: 'Raleway';
+	margin: 0px;
 }
 
+header{
+	position: relative;
+}
 .title{
 	font-family: 'Lilita One';
 	font-size: 70px;
+	margin-bottom: 0px;
+	margin-top: 70px;
+}
+
+.title-description{
+	margin-top: 0px;
 }
 
 .brawlers h2{
@@ -14,11 +24,16 @@ body{
 .title-brawler{
 	font-family: 'Lilita One';
 	font-size: 50px;
+	margin-bottom: 20px;
 }
 
 .cover{
 	background-image: url('../images/background.jpg');
 	color: white;
+	padding: 20px;
+}
+.cover button{
+	margin-bottom: 70px;
 }
 
 .brawlers{
@@ -26,9 +41,65 @@ body{
 }
 
 .menu{
+	/*float: right;*/
 	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
 }
 
 .menu ul {
+	font-family: 'Lilita One';
+	display: inline-block;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.logotipo{
+	display: inline-block;
+}
+
+.container{
+	margin: auto;
+	width: 800px;
+}
+
+.right{
+	float: right;
+	position: relative;
+	top: -73px;
+}
+
+.left{
+	float: left;
+	position: relative;
+	top: -1px;
+}
+
+.brawler{
+	border: 1px solid #1F313C;
+	border-radius: 8px;
+	margin: 10px;
+	padding: 10px;
+}
+.brawler ol{
+	padding: 0px;
+}
+
+.container-brawler-a{
+	padding-left: 20px;
+}
+
+.container-brawler-b{
+	margin-left: 370px;
+}
+
+button{
+	border: none;
+	border-radius: 5px;
+	background: #fd324e;
+	color: white;
+	padding: 7px;
 	font-family: 'Lilita One';
 }
