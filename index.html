@@ -72,40 +72,45 @@
 		<div class="container">
 			<div class="contact">
 				<img src="static/images/Brawl_Stars_logo.png" width="186" height="140" alt="Logo Brawl Stars">
-				<a href="tel:+524191190957"><strong>Telephone</strong><span>4191190957</span></a>
-				<a href="mailto:luis@gmail.com"><strong>Email</strong><span>luis@gmail.com</span></a>
+				<div class="info">
+					<a href="tel:+524191190957"><strong>Telephone</strong><span>4191190957</span></a>
+					<a href="mailto:luis@gmail.com"><strong>Email</strong><span>luis@gmail.com</span></a>	
+				</div>
 			</div>
 			<form class="form">
-				<label for="name">Name</label>
-				<input type="text" required id="name" name="name" />
-				<label for="email">Email</label>
-				<input type="email" required id="email" name="email" />
-				<div class="sex">
-					<label for="women">
-						<input type="radio" id="women" name="sex" value="Women">
-					</label>
-					<label for="men">
-						<input type="radio" id="men" name="sex" value="Men">
-					</label>
-				</div>
-				<div class="interests">
-					<label for="Quotation">
-						<input type="checkbox" id="Quotation" value="Quotation"> 
-					</label>
-					<label for="claims">
-						<input type="checkbox" id="claims" value="Claims">  
-					</label>
-					<label for="comments">
-						<input type="checkbox" id="comments" value="Comments"> 
-					</label>
-					<label for="others">
-						<input type="checkbox" id="others" value="Others"> 
-					</label>
-				</div>
-				<div>
+				<div class="col1">
+					<label for="name">Name</label>
+						<input type="text" required id="name" name="name" />
+						<label for="email">Email</label>
+						<input type="email" required id="email" name="email" />
+						<div class="sex">
+							<label for="women">
+								<input type="radio" checked id="women" name="sex" value="Women">Women
+							</label>
+							<label for="men">
+								<input type="radio" id="men" name="sex" value="Men">Men
+							</label>
+						</div>
+
+						<div class="interests">
+							<label for="Quotation">
+								<input type="checkbox" checked id="Quotation" value="Quotation"> Quotation
+							</label>
+							<label for="claims">
+								<input type="checkbox" id="claims" value="Claims">  Claims
+							</label>
+							<label for="comments">
+								<input type="checkbox" id="comments" value="Comments"> Comment
+							</label>
+							<label for="others">
+								<input type="checkbox" id="others" value="Others"> Others3
+							</label>
+						</div>
+					</div>
+				<div class="col2">
 					<label for="affair">Affair</label>
-					<textarea name="affair" id="affair" cols="30" rows="7"></textarea>
-					<input type="submit" value="Send" />
+					<textarea name="affair" id="affair" cols="25" rows="5"></textarea>
+					<input class="button" type="submit" value="Send" />
 				</div>
 			</form>	
 		</div>

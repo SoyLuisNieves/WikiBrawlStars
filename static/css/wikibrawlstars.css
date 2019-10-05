@@ -56,6 +56,11 @@ header{
 	display: inline-block;
 	margin-left: 30px;
 }
+
+.menu a{
+	text-decoration: none;
+}
+
 .logotipo{
 	display: inline-block;
 }
@@ -95,7 +100,7 @@ header{
 	margin-left: 370px;
 }
 
-button{
+.button{
 	border: none;
 	border-radius: 5px;
 	background: #fd324e;
@@ -106,6 +111,13 @@ button{
 
 .footer{
 	background-color: #273b47;
+}
+
+.contact{
+	display: block;
+	width: 300px;
+	flex-wrap: wrap; 
+	align-items: center;
 }
 
 .contact img{
@@ -119,4 +131,55 @@ button{
 .contact a{
 	color: white;
 	text-decoration: none;
+	margin: 10px 10px 10px 0px;
+}
+
+.footer .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form{
+	display: flex;
+	width: 400px;
+	color: white;
+	padding: 10px 10px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.col2 .button{
+	margin-top: 5px;
+}
+
+.interests label{
+	font-size: 12px;
+}
+
+.form label, .sex, .interests{
+	margin-bottom: 10px;
+}
+
+.sex{
+	margin-top: 10px;
+}
+
+.info a{
+	float: left;
+	margin-right: 25px;
+}
+
+.interests label{
+	margin-right: 10px;
 }
